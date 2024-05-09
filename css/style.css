@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+}
+/* p{
+    background-color: aqua;
+    width: 300px;
+    height: 600px;
+    padding: 10px;
+
+} */
+
+.middle h1{
+    color: rgb(253, 252, 251);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+
+}
+
+.middle p {
+    color: rgb(250, 83, 6);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.middle{
+    padding-top: 10rem;
+}
+
+
+.first-section {
+    /* border: 2px solid black; */
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../lmages/main.jpg);
+}
+
+.list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.list h1{
+    color: #ff3300;
+}
+
+.ul {
+    list-style: none;
+    display: flex;
+    margin-right: 4rem;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 15px;
+    
+    }
+
+    .ul li{
+        margin: 1rem;
+        border: 2px solid rgb(245, 35, 7);
+        border-radius: 10px;
+        padding-top: 1rem;
+        padding-left: 2rem;
+        padding-bottom: 1rem;
+        padding-right: 2rem;
+        color: #fff;
+        
+    }
+
+    .ul li:hover{
+        background-color: rgb(248, 122, 4);
+    }
+
+    .list h1{
+        text-align: center;
+    }
+.second-section{
+    display: flex;
+    gap: 15rem;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    background: linear-gradient( to top , rgba(206, 177, 140, 0.952)50%,rgba(206, 177, 140, 0.952)50%);
+
+}
+
+.second-section h4{
+    margin: 0;
+    text-align: center;
+    font-weight: 500;
+    color: red;
+    padding-right: 22rem;
+
+}
+
+.second-section h3{
+    padding-left: 1rem ;
+}
+
+.second-section div p{
+    text-align: left;
+    padding-left: 1rem;
+    padding-top: 2rem;
+
+}
+
+.abt-div{
+    width: 50%;
+}
+
+.abt-img {
+    width: 350px;
+    height: 350px;
+}
+.third-section{
+    display: flex;
+    gap: 12rem;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    background: linear-gradient( to top , rgba(2, 2, 2, 0.5)50%, rgba(3, 3, 3, 0.5)50%);
+
+}
+
+.abt-img2 {
+    width: 350px;
+    height: 350px;
+}
+
+.third-section .abt-img2{
+    padding-left: 3rem;
+}
+
+    
+.third-section .abt-frm input{
+    margin-top: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+
+} 
+
+.subt{
+    width: 240px;
+    height: 40px;
+    background-color: #ff0000;
+    border: none;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+    
+}
+
+.third-section input{
+    border-radius: 10px;
+    border: none;
+}
+
+.third-section .sbt-rst{
+    margin-left: 6rem;
+}
+
+.third-section .prayer{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(22, 20, 20);
+    margin-bottom: 0.5rem;
+}
+
+
+.forth-section{
+    display: flex;
+    gap: 15rem;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    background: linear-gradient( to top , rgba(206, 148, 72, 0.952)50%,rgba(206, 148, 72, 0.952)50%);
+
+}
+
+.forth-section h4{
+    margin: 0;
+    text-align: center;
+    font-weight: 500;
+    color: red;
+    padding-right: 22rem;
+
+}
+
+.forth-section h3{
+    padding-left: 1rem ;
+}
+
+.forth-section div p{
+    text-align: left;
+    padding-left: 1rem;
+    padding-top: 2rem;
+}
